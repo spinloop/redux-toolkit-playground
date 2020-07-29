@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
+import {loop, Cmd} from 'redux-loop';
 
 export const counterSlice = createSlice({
   name: 'counter',
